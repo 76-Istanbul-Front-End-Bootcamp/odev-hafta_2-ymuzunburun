@@ -10,7 +10,7 @@ let person = {
   }
 }
 
-let messageFunc = person.message.bind()
+let messageFunc = person.message.bind(person)
 messageFunc();
 
 
